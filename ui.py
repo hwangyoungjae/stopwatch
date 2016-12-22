@@ -51,6 +51,6 @@ class Ui_Form(object):
     def retranslateUi(self, Form):
         Form.setWindowTitle(_translate("Form", "StopWatch", None))
         self.lineEdit.setText(_translate("Form", "00:00:00.00", None))
-        self.pushButton_lab.setText(_translate("Form", "랩", None))
-        self.pushButton_start.setText(_translate("Form", "시작", None))
+        self.pushButton_lab.setText(_translate("Form", "Lab", None))
+        self.pushButton_start.setText(_translate("Form", "Start", None))
 
