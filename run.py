@@ -1,4 +1,5 @@
 # -*- encoding:utf8 -*-
+# Python version in the development environment 2.7.11
 import os,sys,time,datetime
 from PyQt4 import QtCore,QtGui
 from ui import *
