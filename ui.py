@@ -25,7 +25,9 @@ except AttributeError:
 class Ui_Form(object):
     def setupUi(self, Form):
         Form.setObjectName(_fromUtf8("Form"))
-        Form.resize(286, 319)
+        Form.resize(290, 323)
+        Form.setMinimumSize(QtCore.QSize(290, 323))
+        Form.setMaximumSize(QtCore.QSize(290, 323))
         self.lineEdit = QtGui.QLineEdit(Form)
         self.lineEdit.setGeometry(QtCore.QRect(10, 10, 271, 71))
         font = QtGui.QFont()
